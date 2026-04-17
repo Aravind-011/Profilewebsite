@@ -155,7 +155,6 @@ const ContactButton = styled.button`
 const Contact = () => {
   const form = useRef(null);
   const [loading, setLoading] = useState(false);
-  const [submitted, setSubmitted] = useState(false);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -179,8 +178,6 @@ const Contact = () => {
       if (response.data.success) {
         alert("Message Sent Successfully!");
         form.current.reset();
-        setSubmitted(true);
-        setTimeout(() => setSubmitted(false), 5000);
       }
     } catch (error) {
       console.error("Error sending message:", error);
