@@ -155,6 +155,7 @@ const ContactButton = styled.button`
 const Contact = () => {
   const form = useRef(null);
   const [loading, setLoading] = useState(false);
+  const [submitted, setSubmitted] = useState(false);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
