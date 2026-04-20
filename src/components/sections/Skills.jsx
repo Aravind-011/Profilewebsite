@@ -204,9 +204,9 @@ const OldSkillsContainer = styled.div`
 `;
 
 const Skills = () => {
-  // Get MERN Stack (index 4) and .NET Stack (if exists)
+  // Get Java Stack (index 4) and MERN Stack (if exists)
+  const javaStack = skills.find(s => s.title === "Java Stack") || null;
   const mernStack = skills.find(s => s.title === "MERN Stack") || null;
-  const dotnetStack = skills.find(s => s.title === ".NET Stack") || null;
   const langStack = skills.find(s => s.title === "Languages") || null;
   const frontendStack = skills.find(s => s.title === "Frontend") || null;
   const toolsStack = skills.find(s => s.title === "Tools") || null;
@@ -219,14 +219,14 @@ const Skills = () => {
         </Title>
 
         <HighlightsContainer>
-          {/* Left: MERN Stack */}
-          {mernStack && (
+          {/* Left: Java Stack */}
+          {javaStack && (
             <Tilt>
               <StackCard>
-                <StackTitle>{mernStack.title}</StackTitle>
+                <StackTitle>{javaStack.title}</StackTitle>
                 <IconsCircle>
-                  {mernStack.skills.map((item, idx) => (
-                    <IconBox key={`mern-${idx}`}>
+                  {javaStack.skills.map((item, idx) => (
+                    <IconBox key={`java-${idx}`}>
                       <img src={item.image} alt={item.name} title={item.name} />
                     </IconBox>
                   ))}
@@ -277,14 +277,14 @@ const Skills = () => {
             )}
           </CenterContent>
 
-          {/* Right: .NET Stack */}
-          {dotnetStack && (
+          {/* Right: MERN Stack */}
+          {mernStack && (
             <Tilt>
               <StackCard>
-                <StackTitle>{dotnetStack.title}</StackTitle>
+                <StackTitle>{mernStack.title}</StackTitle>
                 <IconsCircle>
-                  {dotnetStack.skills.map((item, idx) => (
-                    <IconBox key={`dotnet-${idx}`}>
+                  {mernStack.skills.map((item, idx) => (
+                    <IconBox key={`mern-${idx}`}>
                       <img src={item.image} alt={item.name} title={item.name} />
                     </IconBox>
                   ))}

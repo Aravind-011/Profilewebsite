@@ -5,6 +5,9 @@ import ull from "../images/ull.webp";
 import hcl from "../images/hcl.jpeg";
 import student from "../images/student.webp";
 import bachelors from "../images/Jntuh.png";
+import java from "../images/java.png";
+import springBoot from "../images/spring-boot.png";
+import post from "../images/post.png";
 export const Bio = {
   name: "Aravind Osuri",
   roles: [
@@ -15,7 +18,7 @@ export const Bio = {
   description:
     "I build high-performance web applications that solve real problems. With a strong foundation in full-stack development, I deliver production-ready solutions that scale effortlessly and exceed user expectations. Focused on clean code, best practices, and continuous innovation.",
   summary:
-    "Software Engineer with 3+ years of experience designing, developing, and supporting scalable web applications and backend systems using C#, .NET, and modern JavaScript frameworks. Proven ability to translate business requirements into technical solutions, collaborate across cross-functional teams, and deliver high-quality software throughout the SDLC. Experienced in microservices architecture, CI/CD pipelines, cloud platforms (AWS/Azure), and performance optimization, with a strong focus on code quality, security best practices, and production support.",
+    "Software Engineer with 3+ years of experience designing, developing, and supporting scalable web applications and backend systems using Java, Spring Boot, and modern JavaScript frameworks. Proven ability to translate business requirements into technical solutions, collaborate across cross-functional teams, and deliver high-quality software throughout the SDLC. Experienced in microservices architecture, CI/CD pipelines, cloud platforms (AWS/Azure), and performance optimization, with a strong focus on code quality, security best practices, and production support.",
   github: "https://github.com/Aravind-011",
   gmail: "avi996631@gmail.com",
   resume:
@@ -40,7 +43,7 @@ export const skills = [
      
       {
         name: "Java",
-        image: "https://www.oracle.com/img/tech/cb88-java-logo-001.jpg",
+        image:java
       },
       {
         name: "Python",
@@ -160,6 +163,31 @@ export const skills = [
     ],
   },
 
+    {
+    title: "Java Stack",
+    skills: [
+      {
+        name: "Java",
+        image: java
+      },
+      {
+        name: "Spring Boot",
+        image: springBoot,
+      },
+      {
+        name: "SQL Server",
+        image: "https://adarshvodnala.vercel.app/images/sqlServer.webp",
+      },
+      {
+        name: "PostgreSQL",
+        image: post,
+      },
+      {
+        name: "React Js",
+        image: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
+      },
+    ],
+  },
   {
     title:"MERN Stack",
     skills:[
@@ -181,29 +209,9 @@ export const skills = [
           "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
       },
     ]
-  },
-
-  {
-    title: ".NET Stack",
-    skills: [
-      {
-        name: "C#",
-        image: "https://adarshvodnala.vercel.app/images/cHash.webp",
-      },
-      {
-        name: "ASP.NET",
-        image: "https://adarshvodnala.vercel.app/images/dotNet.webp",
-      },
-      {
-        name: "SQL Server",
-        image: "https://adarshvodnala.vercel.app/images/sqlServer.webp",
-      },
-      {
-        name: "React Js",
-        image: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
-      },
-    ],
   }
+
+
 ];
 
 export const testimonials = [
@@ -240,7 +248,7 @@ export const experiences = [
     role: "Software Engineer",
     company: "Boeing [USA]",
     date: "2025- Present",
-    desc: "Engaged with 15+ business stakeholders and project leads to define critical project requirements, resulting in a streamlined process that decreased project delivery timelines by 20%, enhancing team productivity and stakeholder satisfaction. Initiated a tailored customer interaction component within the CRM platform, improving customer engagement by 20% through a better user experience and optimized data workflows. Implemented enterprise applications using C#, ASP.NET, and RESTful Web APIs, ensuring high performance, scalability, and secure data access. Demonstrated expertise in implementing GraphQL & Restful Api and refactoring legacy code in key products, reducing server requests by 30%, user-reported bugs by 30%, and improving code maintainability by 25%. Built scalable and performant backend applications using React.js and JavaScript, implementing server-side rendering (SSR) and API routes to enhance user experience and SEO.",
+    desc: "Engaged with 15+ business stakeholders and project leads to define critical project requirements, resulting in a streamlined process that decreased project delivery timelines by 20%, enhancing team productivity and stakeholder satisfaction. Initiated a tailored customer interaction component within the CRM platform, improving customer engagement by 20% through a better user experience and optimized data workflows. Implemented enterprise applications using Java, Spring Boot, and RESTful Web APIs, ensuring high performance, scalability, and secure data access. Demonstrated expertise in implementing GraphQL & Restful Api and refactoring legacy code in key products, reducing server requests by 30%, user-reported bugs by 30%, and improving code maintainability by 25%. Built scalable and performant backend applications using React.js and JavaScript, implementing server-side rendering (SSR) and API routes to enhance user experience and SEO.",
   },
   {
     id: 1,
@@ -248,7 +256,7 @@ export const experiences = [
     role: "Software Engineer ",
     company: " Information Data Systems [USA]",
     date: "Jan 2024 - Dec 2024",
-    desc: "Revamped existing user interfaces utilizing Angular and JavaScript, ensuring adherence to performance optimization best practices, reduced bounce rate to 15%, contributing to overall improved user experience across the application. Accelerated the migration of legacy monolithic applications to microservices architecture, utilizing Docker for containerization and Kubernetes for orchestration, resulting in a 40% reduction in deployment times and improved scalability. Coordinated efforts with UI/UX designers to create prototypes and wireframes for six web applications; the resulting user feedback sessions involved 200+ participants, providing actionable insights for ongoing product improvements. Enhanced application performance through code refactoring, caching, and performance profiling, resulting in a 55% improvement in load times. Designed and executed training sessions for 15+ team members, fostering a culture of collaboration and iterative improvement, the initiative enhanced team engagement and productivity across the software development lifecycle.",
+    desc: "Revamped existing user interfaces utilizing Angular and JavaScript, ensuring adherence to performance optimization best practices, reduced bounce rate to 15%, contributing to overall improved user experience across the application. Accelerated the migration of legacy monolithic applications to microservices architecture utilizing Java, Spring Boot, Docker for containerization and Kubernetes for orchestration, resulting in a 40% reduction in deployment times and improved scalability. Coordinated efforts with UI/UX designers to create prototypes and wireframes for six web applications; the resulting user feedback sessions involved 200+ participants, providing actionable insights for ongoing product improvements. Enhanced application performance through code refactoring, caching, and performance profiling, resulting in a 55% improvement in load times. Designed and executed training sessions for 15+ team members, fostering a culture of collaboration and iterative improvement, the initiative enhanced team engagement and productivity across the software development lifecycle.",
     // skills: [
     //   "ReactJS",
     //   "Redux",
