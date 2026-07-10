@@ -142,13 +142,6 @@ const IconBox = styled.div`
   }
 `;
 
-const CenterContent = styled.div`
-  display: flex;
-  flex-direction: column;
-  gap: 28px;
-  width: 100%;
-`;
-
 const TechCategory = styled.div`
   display: flex;
   flex-direction: column;

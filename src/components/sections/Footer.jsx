@@ -25,17 +25,6 @@ const FooterWrapper = styled.div`
   color: ${({ theme }) => theme.text_primary};
 `;
 
-const Logo = styled.div`
-  font-weight: 700;
-  font-size: 24px;
-  background: linear-gradient(135deg, ${({ theme }) => theme.primary}, ${({ theme }) => theme.primary}aa);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  color: ${({ theme }) => theme.primary};
-  letter-spacing: 1px;
-`;
-
 const Nav = styled.nav`
   width: 100%;
   max-width: 800px;
